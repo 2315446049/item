@@ -1,0 +1,122 @@
+.nav1{
+    width: 100%;
+    height: 65px;
+    background-color: #333333;
+    
+}
+.nav1 .nav1-btn{
+    width: 300px;
+    height: 65px;
+    background-color: #73b320;
+    border-width: 0;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    color: white;
+    font-weight: bold;
+    margin:0px 0 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.nav1 .nav1-btn:hover{
+    background-color: #39b0ff;
+}
+.nav1 .nav1-btn >img{
+    margin-right:5px;
+}
+.nav1 .nav1-btn >ul{
+	width: 300px;
+    height: 455px;
+    background-color:#00609f;
+    box-sizing: border-box;
+    position: absolute;
+    top: 65px;
+    display: none;
+    z-index: 200;
+    transition: 1s;
+}
+.nav1 .nav1-btn:hover >ul{
+    display:block;
+}
+.nav1 .nav1-btn >ul>li{
+	width: 284px;
+    height:56px;
+    padding:0 8px;
+    text-align: left;
+    line-height: 56px;
+    position: relative;
+}
+.nav1 .nav1-btn >ul>li a{
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.nav1 .nav1-btn >ul>li:nth-child(8) {
+	border-top:1px solid #a6a6a6;
+}
+.nav1 .nav1-btn >ul>li:nth-child(8) img {
+	width: 19px;
+	height: 19px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.nav1 .nav1-btn >ul>li  a  i{
+    position: absolute;
+    top:25px;
+    right:50px;
+    display: inline-block;
+	border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid white;
+}
+.nav1 .nav1-btn >ul>li img{
+	width: 35px;
+    height:40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.nav1>div> ul{
+    width: 825px;
+    float: right;
+    margin:0 15px;
+}
+.nav1>div> ul >li{
+    float: left;
+}
+.nav1>div> ul >li>a{
+    display: block;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.nav1>div> ul >li:hover>a{
+    background-color: #3B4348;
+}
+.nav1>div >ul >li>a i{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    font-weight: bold;
+    transform: rotate(45deg) translateY(-3px);
+    border-right: 2px solid  white;
+    border-bottom: 2px solid white;
+}
+.nav1>div> ul >li:nth-child(1)>ul{
+    width: 200px;
+    height: 176px; 
+    background-color: #262626;
+    position: absolute;
+    top:240px;
+    display: none;
+}
+.nav1>div> ul >li:nth-child(1):hover>ul{
+    display:block;
+}
+.nav1>div> ul >li:nth-child(1)>ul li{
+    width: 200px;
+    height: 44px; 
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.nav1>div> ul >li>ul li a{
+    color: #f4f5f7;
+    font-size: 13px;
+}

@@ -1,0 +1,193 @@
+.main {
+	height: 1761.5px;
+	padding: 70px 0;
+	background-color: white;
+}
+.main>div>.left{
+	float: left;
+	width: 280px;
+	/*height: 1700px;*/
+	margin:0 0 15px;
+}
+.main>div>.left h2{
+	color: #666;
+    border-bottom: 3px solid #39b0ff;
+    font-size:22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.main>div>.left .list{
+	margin-bottom: 20px;
+}
+.main>div>.left>div h4{
+	font-size: 14px;
+    line-height: 1.5;
+    color: #262626;
+    margin-bottom: 10px;
+    margin-top: -4px;
+}
+.main>div>.left .list li{
+	margin-bottom: 10px;
+}
+.main>div>.left .list li a{
+	color: #262626;
+	height: 24px;
+    transition: 0.2s ;
+    font-weight: 300;
+    display: block;
+}
+.main>div>.left .list li a:hover{
+	color: #007bff;
+	transform:translateX(14px);
+}
+.main>div>.left .list li a>span{
+	float: right;
+	margin-right: 10px;
+    width: 30px;
+    text-align: center;
+}
+.main>div>.left .list li a:hover>span{
+	transform:translateX(-14px);
+}
+.main>div>.left .color li {
+	margin-bottom: 20px;
+	float: left;
+}
+.main>div>.left .color li a{
+	display: block;
+    margin-right: 10px;
+    height: 25px;
+    width: 42px;
+}
+.main>div>.left .color li:nth-child(1) a{
+	background-color: #000;
+}
+.main>div>.left .color li:nth-child(2) a{
+	background-color: #1dd983;
+}
+.main>div>.left .color li:nth-child(3) a{
+	background-color: #e74c3c;
+}
+.main>div>.left .color li:nth-child(4) a{
+	background-color: #f4ca49;
+}
+.main>div>.left .color li:nth-child(5) a{
+	background-color: #f5740a;
+}
+.main>div>.left .det-list>div{
+	height: 80px;
+	margin-bottom: 20px;
+}
+.main>div>.left .det-list>div>a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border:1px solid #eeeeee;
+	float: left;
+}
+.main>div>.left .det-list>div img{
+	width: 80px;
+	height: 80px;
+}
+.main>div>.left .det-list>div>div{
+	float: right;
+	width: 190px;
+	color: #555555;
+}
+.main>div>.left .det-list>div>div a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #555555;
+}
+.main>div>.left .det-list>div>div p{
+	color: #e74c3c;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+/*********************/
+.main>div>.right{
+	float: right;
+	width: 825px;
+	/*height: 1700px;*/
+}
+.main>div>.right .option{
+	height: 65px;
+	padding:10px 15px;
+	background-color: #eeeeee;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+.main>div>.right .option>div:nth-child(1){
+	float: left;
+	margin-top:5px;
+}
+.main>div>.right .option>div:nth-child(1) a{
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	padding: 3px 10px;
+    border: 1px solid #c5c5c5;
+    box-sizing: border-box;
+    background-color: white;
+    margin-right:15px;
+}
+.main>div>.right .option>div:nth-child(1) a img:nth-child(1){
+	margin-right:20px;
+}
+.main>div>.right .option>div:nth-child(2){
+	float: right;
+	font-size: 13px;
+	font-weight: bold;
+}
+.main>div>.right .option>div:nth-child(2) select{
+	width: 200px;
+	height:43px;
+}
+.main>div>.right .thumb{
+	margin-top:50px;
+	margin-bottom: 30px;
+}
+/*************/
+.main>div>.right .page{
+	height: 65px;
+	padding:10px 15px;
+	background-color: #eeeeee;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+.main>div>.right .page>div:nth-child(1){
+	float: left;
+	margin-top:5px;
+}
+.main>div>.right .page>div:nth-child(1) a{
+	width: 40px;
+	height: 37px;
+	background-color: #fff;
+    color: #555555;
+    outline: 1px solid #c5c5c5;
+    display: inline-block;
+    padding: 8px 15px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right:-5px;
+    box-sizing: border-box;
+}
+.main>div>.right .page>div:nth-child(1) .active{
+	background-color: #73b320;
+	color: white;
+}
+.main>div>.right .page>div:nth-child(1) a:hover{
+	background-color: #73b320;
+	color: white;
+}
+.main>div>.right .page>div:nth-child(2){
+	float: right;
+	font-size: 13px;
+	font-weight: bold;
+}
+.main>div>.right .page>div:nth-child(2) select{
+	width:60px;
+	height:43px;
+}

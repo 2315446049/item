@@ -1,0 +1,89 @@
+.part2 .item{
+    width: 276px;
+    float: left;
+    margin-right: 32px;
+}
+.part2 .item:nth-child(4){
+    margin-right: 0px;
+}
+.part2 .item >a{
+    display: block;
+    width: 276px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    border-radius: 3px;
+    position: relative;
+}
+.part2 .item:hover >a{
+	border:1px solid orangered;
+}
+.part2 .item >a >img{
+    display: block;
+    width: 100%;
+}
+.part2 .item >a .eye{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    top:50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    background-color:#73b320;
+    opacity: 0;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.part2 .item >a .eye img{
+	width: 35px;
+	height: 20px;
+	margin-top:15px;
+	margin-left:8px;
+}
+.part2 .item >a:hover .eye{
+    opacity: 1;
+    transform: scale(1);
+}
+.part2 .item >a:hover .eye:hover{
+    background-color:orangered;
+}
+.part2 .item >p{
+	margin:10px 0;
+    color: #666666;
+    transition: 1s;
+}
+.part2 .item >p:hover{
+    color:#39b0ff;
+}
+.part2 .item >h5{
+	margin-top:10px;
+    color: red;
+    opacity: 1;
+}
+.part2 .item .choose{
+    opacity: 0;
+    transition: 0.5s;
+}
+.part2 .item .choose>a{
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color:#e5e8ec;
+    text-align: center;
+    line-height:40px;
+}
+.part2 .item .choose>a img{
+    width: 16px;
+    height: 16px;
+}
+.part2 .item:hover .choose{
+    opacity: 1;
+    transform: translateY(-20px);  
+}
+.part2 .item:hover >h5{
+    opacity: 0;
+    transform: translateY(-20px);  
+}

@@ -1,0 +1,82 @@
+.main{
+	height: 694px;
+	padding: 70px 0;
+	background-color: white;
+	box-sizing: border-box;
+}
+.main>div{
+	height:554px;
+	padding: 40px 50px 35px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+.main>div .left{
+	width: 400px;
+	float: left;
+}
+.main>div>div h2{
+	display: block;
+	color: #262626;
+    font-size: 26px;
+    border-bottom:1px solid   #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.main>div>div input{
+	width: 100%;
+	background-color: #F4F5F7;
+	border: 1px solid #c5c5c5;
+	padding: 15px 20px;
+	outline: none;
+	box-sizing: border-box;
+	margin-top:20px;
+	font-size: inherit;
+}
+.main>div .right{
+	width: 630px;
+	float: right;
+}
+.main>div>div>div{
+	margin:20px 0 40px;
+}
+.main>div>div>div a:nth-child(1){
+	display: inline-block;
+	width: 15px;
+	height:15px;
+	border: 1px solid #c5c5c5;
+	vertical-align: middle;
+}
+.main>div>div>div a:nth-child(1){
+	display: inline-block;
+	width: 15px;
+	height:15px;
+	border: 1px solid #c5c5c5;
+	vertical-align: middle;
+}
+.main>div>div>div a:nth-child(2){
+	color: #262626;
+	font-size:15px;
+	font-weight:600;
+	padding-left: 10px;
+}
+.main>div>div>div a:nth-child(3){
+	color: #73B320;
+	font-size:15px;
+	font-weight:600;
+	float: right;
+}
+.main>div>div button{
+	height: 51px;
+	background-color: rgb(115,179,32);
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	padding:15px 40px;
+	border-width:0;
+	cursor: pointer;
+}
+.main>div>div button:hover{
+	transition: 1s;
+	background-color: #39B0FF;
+}
